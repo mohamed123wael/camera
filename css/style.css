@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+header{
+    height: 100vh;
+    background-color: rgb(0, 79, 195);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: rgb(0, 79, 195);
+    align-items: center;
+}
+.container h2{
+    color: rgb(0, 79, 195);
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-left: 20px;
+    transition: 2s;
+}
+.container h2:hover{
+    font-size: 50px;
+    scale: 2s;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+div img{
+    width: 120px;
+    margin-top:20px ;
+    margin-left: 3px;
+}
+a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(0, 79, 195);
+    font-weight: 700;
+    transition: 1s;
+}
+a:hover{
+    background-position: 20px;
+    background-size: 20px;
+    padding: 10px;
+    border: 3px solid rgb(0, 79, 195);
+    border-radius: 200px 200px;
+    scale: 2s;
+}
+ul{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.con{
+    display: flex;
+    margin: auto;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 100px;
+    /* height: 500px; */
+}
+.imag{
+    width: 600px;
+    height: 500px;
+    transition: 1s;
+}
+.imag:hover{
+transform: scale(0.9);
+}
+.text p{
+    padding-bottom: 20px;
+}
+.btn{
+    width: 150px;
+    background-color: rgb(0, 79, 195);
+    color: white;
+    padding: 10px;
+    border:2px solid white;
+    border-radius: 15px;
+    margin-right: 7px;
+    transition: 2s;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(0, 79, 195);
+    border: 2px solid white;
+    scale: 2s;
+}
+.bto{
+    width: 150px;
+    background-color: rgb(0, 79, 195);
+    color: white;
+    padding: 10px;
+    border:2px solid white;
+    border-radius: 15px;
+    transition: 2s;
+}
+.bto:hover{
+    background-color: white;
+    color: rgb(0, 79, 195);
+    border: 2px solid white;
+    scale: 2s;
+}
+.buto{
+    display: flex;
+    padding-top: 20px;
+}
+.text h4{
+    padding-top: 20px;
+}
+.form h1{
+    color: white;
+    padding-top: 120px;
+    padding-left: 90px;
+    font-size: xx-large;
+}
+.form{
+    background-color: rgb(5, 47, 111);
+}
+.form h2{
+    color: white;
+    padding-top: 20px;
+    padding-left: 90px;
+    font-size: x-large;
+}
+.nam_ano{
+    display: flex;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 640px;
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 40px;
+    /* margin-bottom: 20px; */
+}
+.fname{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.fname input{
+    width: 230px;
+    height: 30px;
+    margin-top: 7px;
+    padding: 10px 6px;
+}
+.lname input{
+    width: 230px;
+    height: 30px;
+    margin-top: 7px;
+    padding: 10px 6px;
+}
+.lname{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.email input{
+    width: 230px;
+    padding: 10px 6px;
+    height: 30px;
+    margin-top: 7px;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+.phone input{
+    padding: 10px 6px;
+    width: 230px;
+    height: 30px;
+    margin-top: 7px;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+.company input{
+    width: 230px;
+    padding: 10px 6px;
+    height: 30px;
+    margin-top: 7px;
+}
+.job{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.job input{
+    width: 230px;
+    padding: 10px 6px;
+    height: 30px;
+    margin-top: 7px;
+}
+.country{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.country input{
+    width: 230px;
+    padding: 10px 6px;
+    height: 30px;
+    margin-top: 7px;
+}
+label{
+    font-size: larger;
+    color: rgb(0, 79, 195);
+    font-style: initial;
+}
+.bott{
+    background-color: rgb(0, 79, 195);
+    color: white;
+    padding: 10px 6px;
+    margin-top: 7px;
+    font-size: large;
+    border: 2px solid rgb(0, 79, 195);
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tre{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    width: 1000px;
+    margin-top: 28px;
+    font-size: larger;
+}
+.tre h3{
+    color: white;
+    margin-bottom: 10px;
+}
+.po{
+    color: white;
+    margin-bottom: 10px;
+}
+.pi{
+    color: white;
+    margin-bottom: 10px;
+}
+.pu{
+    color: white;
+    margin-bottom: 10px;
+}
+.py{
+    color: white;
+    margin-bottom: 10px;
+}
+.frre{
+    display: flex;
+    /* margin-bottom: 20px; */
+}
+.ca img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.camera{
+    display: flex;
+    gap: 20px;
+}
+.ca{
+    width: 600px;
+    border: 6px solid rgb(0, 79, 195);
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.ca span{
+    color: rgb(5, 47, 111);
+    font-weight: 600;
+}
+.ca h3{
+    margin-top: 10px;
+}
+.ca p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.product h1{
+    text-align: center;
+    color: rgb(0, 79, 195);
+    font-size: xx-large;
+}
+.contact h2{
+    color: white;
+}
+.contact{
+    background-color: black;
+}
